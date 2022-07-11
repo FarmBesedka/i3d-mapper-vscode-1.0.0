@@ -1,0 +1,29 @@
+{
+  "name": "i3d-mapper",
+  "displayName": "I3D Mapper",
+  "description": "Create i3dMappings for Farming Simulator mods",
+  "publisher": "Besedka Fermera",
+  "version": "1.0.0",
+  "engines": {
+    "vscode": "^1.69.0"
+  },
+  "categories": [
+    "Other"
+  ],
+  "activationEvents": [
+    "onCommand:i3d-mapper.mapper"
+  ],
+  "icon": "icon.png",
+  "main": "./extension.js",
+  "contributes": {
+    "commands": [
+      {
+        "command": "i3d-mapper.mapper",
+        "title": "Mapper"
+      }
+    ]
+  },
+  "dependencies": {
+    "xml-js": "^1.6.11"
+  }
+}
