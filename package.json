@@ -13,7 +13,7 @@
   "activationEvents": [
     "onCommand:i3d-mapper.mapper"
   ],
-  "icon": "./icon.png",
+  "icon": "icon.png",
   "main": "./extension.js",
   "contributes": {
     "commands": [
