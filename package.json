@@ -2,7 +2,7 @@
   "name": "i3d-mapper",
   "displayName": "I3D Mapper",
   "description": "Create i3dMappings for Farming Simulator mods",
-  "publisher": "farm.besedka",
+  "publisher": "FarmBesedka",
   "version": "1.0.0",
   "engines": {
     "vscode": "^1.69.0"
